@@ -1,6 +1,6 @@
 # Yoon Sing Yap
 
-Wet-lab scientist and computational researcher working across functional genomics, scientific software, and quantitative finance.
+Wet-lab scientist and computational researcher working across functional genomics, scientific software, and financial markets.
 
 ## Areas of interest
 
