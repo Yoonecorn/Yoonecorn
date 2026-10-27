@@ -6,30 +6,30 @@ Full-time molecular biologist, part systems programmer, part amateur options the
 
 ---
 
-### 🧬 Wet Lab Reality
+### Wet Lab Reality
 * Designing CRISPR screens, interrogating RNA biology, and convincing cells to behave.
 * Belief: No amount of downstream compute can fix a messy bench control.
 
-### 🦀 Systems & Silicon
+### Systems & Silicon
 * Turning bulky genomic algorithms into deterministic, low-memory, pure-Rust engines.
 * Maintainer/Builder of:
   * [CrisprClamp](https://github.com/Yoonecorn/crisprclamp) — Because ordered dual-guide counting shouldn't eat all your server RAM.
   * [MAGeCKrs](https://github.com/Yoonecorn/mageckrs) — High-throughput sgRNA counting, RRA, and MLE that doesn't make you wait for coffee.
   * [ZRust](https://github.com/Yoonecorn/ZRust) — DrugZ chemogenetic screen analysis, but rewritten so it flies.
 
-### 📈 Numbers & Greeks
+### Numbers & Greeks
 * Options structure mechanics, volatility surfaces, commodities, and risk surfaces.
 * Finding signal in noisy biological datasets and noisy market regimes.
 
 ---
 
-### 🧪 Daily Ingredients
+### Daily Ingredients
 
 `Pipettes` · `Rust (cargo run --release)` · `Python` · `R` · `RNA-seq` · `Perturbations` · `Delta / Gamma / Vega`
 
 ---
 
-### ⚡ Operating Principles
+### Operating Principles
 
 1. **Respect the assay:** High-depth sequencing won't resurrect poorly lysed cells.
 2. **Deterministic always:** Same input, different output? Straight to jail.
@@ -38,7 +38,7 @@ Full-time molecular biologist, part systems programmer, part amateur options the
 
 ---
 
-### 🛰️ Transmission
+### Transmission
 
 Want to talk CRISPR screening math, Rust SIMD acceleration, or volatility skew?
 
