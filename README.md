@@ -25,14 +25,14 @@ Full-time molecular biologist, part systems programmer, part amateur options the
 ---
 
 ### Clono Repertoire Suite
-*High-throughput systems bioinformatics engines for quantitative T-cell receptor (TCR) dynamics and immune repertoire modeling.*
+*High-throughput systems bioinformatics engines for quantitative immune repertoire modeling across T-cell (TCR) and B-cell (BCR) receptors.*
 
 | Tool | Focus & Purpose |
 | :--- | :--- |
-| **[ClonoShift](https://github.com/Yoonecorn/ClonoShift)** | Resolves robust clonal trajectories and directional stability from model-dependent uncertainty in sparse immune repertoires. |
-| **[ClonoForge](https://github.com/Yoonecorn/ClonoForge)** | Ultra-fast raw repertoire processing, UMI assembly, and read annotation engine. |
-| **[ClonoDist](https://github.com/Yoonecorn/ClonoDist)** | Exact and high-performance metric distance matrices across CDR3 sequence spaces. |
-| **[ClonoTrace](https://github.com/Yoonecorn/ClonoTrace)** | Longitudinal clonal lineage reconstruction and tracking across multi-time-point repertoires. |
+| **[ClonoShift](https://github.com/Yoonecorn/ClonoShift)** | Paired longitudinal immune-repertoire inference engine in Rust with separate Extended and Core models. |
+| **[ClonoForge](https://github.com/Yoonecorn/ClonoForge)** | High-performance Rust tool for deterministic, bounded FASTQ preprocessing and exact-barcode consensus generation. |
+| **[ClonoDist](https://github.com/Yoonecorn/ClonoDist)** | Deterministic, reference-qualified T-cell receptor distance calculation and neighborhood analysis in Rust, reimplementing tcrdist3 and pwseqdist. |
+| **[ClonoTrace](https://github.com/Yoonecorn/ClonoTrace)** | Deterministic Rust toolkit for B-cell receptor clonal inference, reproducing Change-O and SCOPer workflows with alternative models. |
 
 ---
 
