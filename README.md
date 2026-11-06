@@ -1,61 +1,42 @@
-# Yoon Sing Yap
+
+<div align="center">
+
+# Hi, I'm Yoon!
+
+**Experimental biologist by training, Rust tinkerer by choice.**
 
 *Pipetting by day, compiler battles by night, implied volatility in between.*
 
-Full-time molecular biologist, part systems programmer, part amateur options theorist. I optimize algorithms in Rust because throwing paid cloud compute at inefficient algorithms feels like a crime.
+</div>
+
+I work at the intersection of **wet-lab biology and computation**, with a focus on CRISPR screens, cancer biology, and immunology. I like designing experiments, making sense of messy data, and building tools that make research a little less painful.
+
+### At the bench 🔬
+
+CRISPR screens · Cancer biology · Immunology · RNA biology & multi-omics
+
+### At the terminal 🦀
+
+I build **high-performance bioinformatics tools in Rust**, improving existing algorithms and developing new workflows with a focus on speed, scalability, and scientific accuracy.
+
+| CRISPR & functional genomics | Immune repertoires |
+| --- | --- |
+| **[CrisprClamp](https://github.com/Yoonecorn/crisprclamp)** — High-throughput FASTQ processing and guide counting for single- and dual-guide CRISPR screens. | **[ClonoForge](https://github.com/Yoonecorn/ClonoForge)** — Rust implementation of pRESTO for preprocessing, quality control, and assembly of TCR/BCR sequencing reads. |
+| **[MAGeCKrs](https://github.com/Yoonecorn/MAGeCKrs)** — Optimized and extended MAGeCK implementation supporting guide counting, RRA, MLE, and copy-number correction. | **[ClonoTrace](https://github.com/Yoonecorn/ClonoTrace)** — BCR clonotype identification and clonal lineage analysis using methods inspired by Change-O. |
+| **[ZRust](https://github.com/Yoonecorn/ZRust)** — High-performance DrugZ implementation for detecting drug sensitization and resistance in CRISPR screens. | **[ClonoDist](https://github.com/Yoonecorn/ClonoDist)** — Optimized implementation of tcrdist3 for sequence-based TCR distance calculations and repertoire similarity analysis. |
+| **[RSBagel](https://github.com/Yoonecorn/RSBagel)** — Optimized BAGEL2 implementation for Bayesian gene-essentiality analysis. | **[ClonoShift](https://github.com/Yoonecorn/ClonoShift)** — Rust implementation of NoisET for detecting changes in TCR/BCR clonotype abundance across conditions. |
+
+*The goal isn't just faster code. It's faster code that still gets the biology right.*
+
+### Operating principles
+
+- **Respect the assay:** High-depth sequencing won't resurrect poorly lysed cells.
+- **Deterministic always:** Same input, different output? Straight to jail.
+- **Ground truth:** P-values can be flattered; raw reads and cash balances don't lie.
+- **Respect the tail risk:** Don't bet the farm on unhedged spreads or unvalidated sgRNAs.
 
 ---
 
-### Wet Lab Reality
-- Designing CRISPR screens, interrogating RNA biology, and convincing cells to behave.
-- Belief: No amount of downstream compute can fix a messy bench control.
+Always happy to talk science, software, or markets.
 
----
-
-### Functional Genomics & CRISPR Screen Engines
-*High-performance, memory-planned pipelines for pooled and combinatorial functional genomics screens.*
-
-| Tool | Focus & Purpose |
-| :--- | :--- |
-| **[crisprclamp](https://github.com/Yoonecorn/crisprclamp)** | Memory-planned, exact counting of ordered dual-guide CRISPR screens directly from compressed paired-end FASTQ. |
-| **[MAGeCKrs](https://github.com/Yoonecorn/MAGeCKrs)** | High-throughput sgRNA counting, RRA, and MLE that doesn't make you wait for coffee. |
-| **[RSBagel](https://github.com/Yoonecorn/RSBagel)** | Blazing-fast Rust reimplementation of the BAGEL2 Bayesian pooled CRISPR fitness screen pipeline with Apple Silicon acceleration. |
-| **[ZRust](https://github.com/Yoonecorn/ZRust)** | High-performance Rust reimplementation of DrugZ for pooled CRISPR chemogenetic screen analysis. |
-
----
-
-### Clono Repertoire Suite
-*High-throughput systems bioinformatics engines for quantitative immune repertoire modeling across T-cell (TCR) and B-cell (BCR) receptors.*
-
-| Tool | Focus & Purpose |
-| :--- | :--- |
-| **[ClonoShift](https://github.com/Yoonecorn/ClonoShift)** | Paired longitudinal immune-repertoire inference engine in Rust with separate Extended and Core models. |
-| **[ClonoForge](https://github.com/Yoonecorn/ClonoForge)** | High-performance Rust tool for deterministic, bounded FASTQ preprocessing and exact-barcode consensus generation. |
-| **[ClonoDist](https://github.com/Yoonecorn/ClonoDist)** | Deterministic, reference-qualified T-cell receptor distance calculation and neighborhood analysis in Rust, reimplementing tcrdist3 and pwseqdist. |
-| **[ClonoTrace](https://github.com/Yoonecorn/ClonoTrace)** | Deterministic Rust toolkit for B-cell receptor clonal inference, reproducing Change-O and SCOPer workflows with alternative models. |
-
----
-
-### Numbers & Greeks
-- Options structure mechanics, volatility surfaces, commodities, and risk surfaces.
-- Finding signal in noisy biological datasets and noisy market regimes.
-
----
-
-### Daily Ingredients
-Pipettes · Rust (cargo run --release) · Python · R · RNA-seq · Perturbations · Delta / Gamma / Vega
-
----
-
-### Operating Principles
-1. *Respect the assay:* High-depth sequencing won't resurrect poorly lysed cells.
-2. *Deterministic always:* Same input, different output? Straight to jail.
-3. *Ground truth:* P-values can be flattered; raw reads and cash balances don't lie.
-4. *Respect the tail risk:* Don't bet the farm on unhedged spreads or unvalidated sgRNAs.
-
----
-
-### Transmission
-Want to talk CRISPR screening math, Rust SIMD acceleration, or volatility skew?
-- Start a discussion: [Open an issue or discussion](https://github.com/Yoonecorn/Yoonecorn/issues)
-- Connect on [LinkedIn](https://www.linkedin.com/in/yoonsingyap/)
+[**LinkedIn**](https://www.linkedin.com/in/yoonsingyap/) · [**GitHub**](https://github.com/Yoonecorn)
